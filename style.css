@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.logo {
+  max-width: 100%;
+  width: 13rem;
+  margin-right: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0 3px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37 !important;
+}
+
+.social-icons a {
+  color: #171717;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #d4af37;
+}
+
+.social-icons p {
+  margin: 0;
+  font-weight: 400;
+  color: #080808a8;
+}
+
+.luxury-text {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  margin-left: 10px;
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 10px 9px 12px 17px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: rgb(34, 31, 31);
+  color: #ffffff;
+  border: 1px solid #d4af37;
+}
+
+.btn i {
+  background-color: white;
+  color: #d4af37;
+  margin-left: 4px;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 80vh;
+  width: 100%;
+}
+
+.hero video {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* form CheckIn */
+
+.formDiv {
+  margin-bottom: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  left: 50%;
+  border: 2px solid #101010;
+}
+
+/* SECOND PAGE */
+
+.secondPage {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.secondPage img {
+  width: 22%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.secondPage .btn {
+  color: #000;
+  background-color: #f8f9fa;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0px !important;
+  border: 1px solid #000;
+}
+.secondPage .btn:hover {
+  background-color: #d4af37;
+  color: #fff;
+  border: none;
+}
+
+.carousel {
+  background-color: rgb(249, 247, 243);
+  border: 2px solid #ebd57c;
+}
+.amenities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(255, 209, 110);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+}
+
+.carousel img {
+  padding: 0px;
+}
+
+.crslDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 20%;
+  border-right: 1px solid #ebd57c;
+  padding: 15px 5px;
+  min-height: 120px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: tan;
+}
+
+.amenities h3 {
+  margin-bottom: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.crslDiv h6 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.crslDiv i {
+  font-size: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .amenities {
+    padding: 6px;
+  }
+  .amenities h3 {
+    font-size: 1rem;
+  }
+
+  .crslDiv {
+    min-height: 100px;
+    padding: 10px 5px;
+  }
+
+  .crslDiv h6 {
+    font-size: 0.8rem;
+  }
+
+  .crslDiv i {
+    font-size: 1.3rem;
+  }
+}
+
+/* Room Third Page */
+
+.thirdPage {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e8e5eb;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.thirdPage h3 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3rem;
+}
+
+.thirdPage .card {
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+/* Fourth Page */
+
+.fourthPage {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+
+.fourthPage h3 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3rem;
+}
+
+.fourthPage i {
+  position: relative;
+  background-color: rgb(215, 178, 33);
+  color: #ffffff;
+  margin-left: 4px;
+  left: -10px;
+  top: -12px;
+  width: fit-content;
+  padding: 12px;
+  border-left: 3px solid black;
+  border-radius: 50%;
+}
+
+.fourthPage img {
+  border-radius: 4px;
+}
+
+.fourthPage .card {
+  border-bottom: 2px solid #d4af37;
+}
+
+/* Last Grid Image */
+
+/* Mobile responsiveness */
+@media (max-width: 991.98px) {
+  .social-icons {
+    margin-top: 15px;
+    justify-content: center;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+
+  .luxury-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .luxury-text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .secondPage {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 576px) {
+  .secondPage {
+    padding-top: 340px;
+  }
+
+  .secondPage img {
+    width: 45%;
+    padding: 4px;
+    margin-top: 0px;
+  }
+}
