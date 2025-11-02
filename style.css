@@ -111,7 +111,6 @@ body {
 /* SECOND PAGE */
 
 .secondPage {
-  min-height: 100vh;
   width: 100%;
   background-color: #ffffff;
   padding-top: 20px;
@@ -164,7 +163,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: 20%;
+  width: 30%;
   border-right: 1px solid #ebd57c;
   padding: 15px 5px;
   min-height: 120px;
@@ -216,7 +215,6 @@ body {
 /* Room Third Page */
 
 .thirdPage {
-  min-height: 100vh;
   width: 100%;
   background-color: #e8e5eb;
   padding-top: 20px;
